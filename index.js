@@ -11,7 +11,7 @@ function asyncMiddleware(fn) {
       .catch(next);
   };
 }
-console.log('Demo');
+console.log('Demo live')
 const app = express();
 
 app.use(morgan('dev'));
